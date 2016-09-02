@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes />
+    <copyright>Copyright 2016</copyright>
+    <tags />
+    <dependencies>
+      <dependency id="Xy.Pis.Contract" version="$version$" />
+      <dependency id="Xy.Pis.Core" version="$version$" />
+      <dependency id="Xy.Pis.Domain" version="$version$" />
+      <dependency id="Xy.Pis.Utils" version="$version$" />
+    </dependencies>
+  </metadata>
+</package>
