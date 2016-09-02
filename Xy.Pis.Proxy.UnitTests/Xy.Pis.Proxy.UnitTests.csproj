@@ -72,17 +72,17 @@
     <Reference Include="System.Threading.Tasks">
       <HintPath>..\packages\Microsoft.Bcl.1.1.10\lib\net40\System.Threading.Tasks.dll</HintPath>
     </Reference>
-    <Reference Include="Xy.Pis.Contract, Version=3.0.0.27, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Xy.Pis.Contract.3.0.0.27\lib\net40\Xy.Pis.Contract.dll</HintPath>
+    <Reference Include="Xy.Pis.Contract, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xy.Pis.Contract.3.0.1\lib\net40\Xy.Pis.Contract.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Xy.Pis.Proxy, Version=3.0.0.27, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Xy.Pis.Proxy.3.0.0.27\lib\net40\Xy.Pis.Proxy.dll</HintPath>
+    <Reference Include="Xy.Pis.Proxy, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xy.Pis.Proxy.3.0.1\lib\net40\Xy.Pis.Proxy.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Xy.Pis.Utils, Version=3.0.0.27, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Xy.Pis.Utils.3.0.0.27\lib\net40\Xy.Pis.Utils.dll</HintPath>
+    <Reference Include="Xy.Pis.Utils, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xy.Pis.Utils.3.0.1\lib\net40\Xy.Pis.Utils.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <Choose>
@@ -112,7 +112,9 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
